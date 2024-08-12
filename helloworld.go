@@ -1,6 +1,15 @@
-package main 
-import ("fmt")
+package main
+
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	var student1 string = "John"
+	var student2 = "Jane"
+	x := 2
+
+	fmt.Println(student1)
+	fmt.Println(student2)
+	fmt.Println(x)
 }
