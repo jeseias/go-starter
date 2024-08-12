@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+var outA int 
+var outB int = 2 
+var outC = 3
+
 func main() {
 	// Variable declaration with an initial value
 	var student1 string = "John"
@@ -43,4 +47,11 @@ func main() {
 			1. Can be used inside function only
 			2. Variable declaration and assignment must be done in the same line
 	*/
+
+	// Printing out side variables
+	fmt.Println("")
+	fmt.Println("------------ Out side variables")
+	fmt.Println(outA)
+	fmt.Println(outB)
+	fmt.Println(outC)
 }
