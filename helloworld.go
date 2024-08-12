@@ -8,6 +8,30 @@ var outA int
 var outB int = 2 
 var outC = 3
 
+func moreVariables() {
+	fmt.Println("")
+	fmt.Println("----------------------")
+	fmt.Println("")
+	fmt.Println("More About variables")
+
+	// Declaring multiple variables
+	var m1, m2, m3, m4 int = 1, 2, 3, 4
+
+	fmt.Println(m1)
+	fmt.Println(m2)
+	fmt.Println(m3)
+	fmt.Println(m4)
+
+	// Multiple types on variables
+	var x1, x2 = 5, "James"
+	x3, x4 := 3, "Bond"
+
+	fmt.Println(x1)
+	fmt.Println(x2)
+	fmt.Println(x3)
+	fmt.Println(x4)
+}
+
 func main() {
 	// Variable declaration with an initial value
 	var student1 string = "John"
@@ -54,4 +78,6 @@ func main() {
 	fmt.Println(outA)
 	fmt.Println(outB)
 	fmt.Println(outC)
+
+	moreVariables()
 }
