@@ -8,6 +8,23 @@ var outA int
 var outB int = 2 
 var outC = 3
 
+func output() {
+	var i,j = "hello", "world"
+
+	fmt.Print(i, "\n")
+	fmt.Print(j, "\n")
+
+	fmt.Print(i, "\n", j)
+
+	fmt.Print(i, " ",j)
+}
+
+func constants() {
+	const PI = 3.14
+
+	fmt.Println(PI)
+}
+
 func moreVariables() {
 	fmt.Println("")
 	fmt.Println("----------------------")
@@ -32,8 +49,8 @@ func moreVariables() {
 	fmt.Println(x4)
 }
 
-func main() {
-	// Variable declaration with an initial value
+func firstVars() {
+// Variable declaration with an initial value
 	var student1 string = "John"
 	var student2 = "Jane"
 	x := 2
@@ -78,6 +95,13 @@ func main() {
 	fmt.Println(outA)
 	fmt.Println(outB)
 	fmt.Println(outC)
+}
 
+func main() {
+	
+	firstVars()
 	moreVariables()
+	constants()
+
+	output()
 }
